@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>EmprendeSV</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.2 -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />    
+    <!-- FontAwesome 4.3.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />    
+    <!-- Theme style -->
+    <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    
+    <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+  
+    <!-- Morris chart -->
+    <link href="plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+   
+      
+   
+  </head>
+  <body class="skin-yellow layout-boxed">
+    <div class="wrapper">
+      
+      <header class="main-header">
+        <!-- Logo -->
+        <a href="#" class="logo"><b>EmprendeSV</b></a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              
+              <li class="dropdown messages-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-envelope-o"></i>
+                  <span class="label label-success">1</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">Tienes 1 mensajes</li>
+                  <li>
+                  
+                    <ul class="menu">
+                      <li>                        <a href="#">
+                          <div class="pull-left">
+                            <img src="dist/img/avatar3.png" class="img-circle" alt="User Image"/>
+                          </div>
+                          <h4>
+                           Ejemplo
+                            <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                          </h4>
+                          <p>Esta solo es una prueba</p>
+                        </a>
+                      </li>
+                      <li>                        <a href="#">
+                          <div class="pull-left">
+                            <img src="dist/img/avatar3.png" class="img-circle" alt="User Image"/>
+                          </div>
+                          <h4>
+                           Ejemplo
+                            <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                          </h4>
+                          <p>Esta solo es una prueba</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="footer"><a href="#">Ver mas mensajes</a></li>
+                </ul>
+              </li>
+             
+              <li class="dropdown notifications-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-bell-o"></i>
+                  <span class="label label-warning">9</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">Tienes 2 notificaciones</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-users text-aqua"></i>Curso 1 aprobado
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-warning text-yellow"></i> Curso 1 aprobado                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="footer"><a href="#">Ver mas notificaciones</a></li>
+                </ul>
+              </li>
+              <!-- Tasks: style can be found in dropdown.less -->
+              <li class="dropdown tasks-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <i class="fa fa-flag-o"></i>
+                  <span class="label label-danger">2</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="header">Desempeño en capacitaciones</li>
+                  <li>
+                    <!-- inner menu: contains the actual data -->
+                    <ul class="menu">
+                      <li><!-- Task item -->
+                        <a href="#">
+                          <h3>
+                           Informatica
+                            <small class="pull-right">20%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">20% Completo</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <h3>
+                            Arte y Diseño
+                            <small class="pull-right">40%</small>
+                          </h3>
+                          <div class="progress xs">
+                            <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                              <span class="sr-only">40% Completo</span>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="footer">
+                    <a href="#">Ver capacitacones inscritas</a>
+                  </li>
+                </ul>
+              </li>
+              
+              
+              <!-- User Account: style can be found in dropdown.less -->
+              <li class="dropdown user user-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img src="dist/img/avatar5.png" class="user-image" alt="User Image"/>
+                  <span class="hidden-xs">TadeoSystems</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+          <!-- Sidebar user panel -->
+          <div class="user-panel">
+            <div class="pull-left image">
+              <img src="dist/img/avatar5.png" class="img-circle" alt="User Image" />
+            </div>
+            <div class="pull-left info">
+              <p>TadeoSystems</p>
+
+              <a href="#"><i class="fa fa-circle text-success"></i> En linea</a>
+            </div>
+          </div>
+          <!-- search form -->
+          <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+              <input type="text" name="q" class="form-control" placeholder="Buscador..."/>
+              <span class="input-group-btn">
+                <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+              </span>
+            </div>
+          </form>
+          <!-- /.search form -->
+          <!-- sidebar menu: : style can be found in sidebar.less -->
+          <ul class="sidebar-menu">
+            <li class="header">Menu de navegación</li>
+            <li class="active treeview">
+              <a href="#">
+                <i class="fa fa-dashboard"></i> <span>Editar perfil</span> <i class="fa fa-angle-left pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Cambiar foto de perfil</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> Configuración de la cuenta</a></li>
+              </ul>
+            </li>
+            <li class="active treeview">
+              <a href="#">
+                <i class="fa fa-files-o"></i>
+                <span>Mis capacitaciones</span>
+                <span class="label label-primary pull-right">2</span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#"><i class="fa fa-circle-o"></i> Informatica</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i>Arte y Diseño</a></li>
+              </ul>
+            </li>
+              <li class="active treeview">
+                 <a href="#">
+                <i class="fa fa-share"></i>
+                <span>Cerrar Session</span>
+              </a>           
+</li>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Right side column. Contains the navbar and content of the page -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            Mi perfil 
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Encuentra tu red</a></li>
+            <li class="active">Perfil</li>
+          </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+         
+          <div class="row">
+            <!-- Left col -->
+            <section class="col-lg-9 connectedSortable">
+              <!-- Custom tabs (Charts with tabs)-->
+              <div class="nav-tabs-custom">
+                <!-- Tabs within a box -->
+                <ul class="nav nav-tabs pull-right">
+                  <li class="active"><a href="#revenue-chart" data-toggle="tab">Mi muro</a></li>
+                  <li><a href="#sales-chart" data-toggle="tab">Noticias</a></li>
+                  <li class="pull-left header"><i class="fa fa-inbox"></i> Publicaciones</li>
+                </ul>
+                <div class="tab-content no-padding">
+                  <!-- Morris chart - Sales -->
+                  <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: auto;"> <div class="box-footer">
+                  <div class="input-group">
+                    <input class="form-control" placeholder="Que piensas...?"/>
+                    <div class="input-group-btn">
+                      <button class="btn btn-success"><i class="fa fa-plus">Publicar</i></button>
+                    </div>
+                  </div>
+              </div>
+        <div class="chart tab-pane" id="sales-chart" style="position: relative; height: auto;"><div class="box box-success">
+                <div class="box-body chat" id="chat-box">
+                  <!-- chat item -->
+                  <div class="item">
+                    <img src="dist/img/user5-128x128.png" alt="user image" class="online"/>
+                    <p class="message">
+                      <a href="#" class="name">
+                        <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small>
+                       TadeoSystems
+                      </a>
+                      "Nuestro sueño es verte crecer". 
+                      
+                    </p> 
+                    <p class="text-muted pull-right"><a href="#"> 1 Me gusta </a>|<a href="#"> Comentar</a></p>
+                    <hr>
+                    <div class="attachment">
+                    
+                        <!-- chat item -->
+                  <div class="item">
+                    <img src="dist/img/user1-128x128.png" alt="user image" class="online"/>
+                    <p class="message">
+                     
+                        <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small> 
+                	  <div class="input-group">
+                    <input class="form-control" placeholder="Escribe un comentario" style="margin-left:60px;" />
+                    <div class="input-group-btn">
+                      <button class="btn btn-success" style="margin-left:60px;"><i class="fa fa-plus">Comentar</i></button>
+                    </div>	
+                    </p>
+                    
+                   
+                  </div><!-- /.item -->
+                    </div><!-- /.attachment -->
+                  </div>
+                   <!-- chat item -->
+                  <div class="item">
+                    <img src="dist/img/user3-128x128.png" alt="user image" class="online"/>
+                    <p class="message">
+                      <a href="#" class="name">
+                        <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 2:15</small>
+                        Dennise
+                      </a>
+                     EmprendeSV 
+                    </p>
+                     <p class="text-muted pull-right"><a href="#">Me gusta </a>|<a href="#"> Comentar</a></p>
+                  </div><!-- /.item -->
+                <div class="box-footer">
+                  <div class="input-group">
+                    <div class="input-group-btn"></div>
+                  </div>
+                </div>
+              </div> 
+              </div>
+              
+              
+              <div class="box box-primary">
+                <div class="box-header">
+                  <i class="ion ion-clipboard"></i>
+                  <h3 class="box-title">Capacitaciones mas destacados</h3>
+                  
+                </div><!-- /.box-header -->
+                <div class="box-body">
+                  <ul class="todo-list">
+                    <li>
+                      <!-- drag handle -->
+                      <span class="handle">
+                        
+                      </span>
+                     
+                      <span class="text">Informatica</span>
+                     
+                      <small class="label label-danger"><i class="fa fa-clock-o"></i> Duración 4 semanas </small>
+                      
+                     
+                    </li>
+                    <li>
+                      <span class="handle">
+                     
+                      </span><span class="text">Arte y Diseño</span>
+                      <small class="label label-info"><i class="fa fa-clock-o"></i> Duración 6 semanas</small>
+                      <div class="tools">
+                        
+                      </div>
+                    </li>
+                    <li>
+                      <span class="handle">
+                      
+                      </span><span class="text">Economia</span>
+                      <small class="label label-warning"><i class="fa fa-clock-o"></i> Duración 5 semanas</small>
+                    
+                    </li>
+                   
+                 
+                  </ul>
+                </div><!-- /.box-body -->
+                <div class="box-footer clearfix no-border">
+                 
+                </div>
+              </div><!-- /.box -->
+               
+               <section id="Galleria">
+                <div class="box box-primary">
+                <div class="box-header">
+                  <i class="ion ion-clipboard"></i>
+                  <h3 class="box-title">Mis Fotos</h3>
+
+                   <div class="box-body">
+
+                <div class="">
+                    <a href="#"><img src="dist/img/i.png" alt="pic" title="pic" class="gallery" /></a>
+                </div><br>
+                <div class="">
+                    <a href="#"><img src="dist/img/g.png" alt="pic" title="pic" class="gallery" /></a>
+                </div>
+                <div class="">
+                  <a href="#"><img src="dist/img/c.png" alt="pic" title="pic" class="gallery" /></a>
+                </div>
+                <div class="">
+                  <a href="#"><img src="dist/img/e.png" alt="pic" title="pic" class="gallery" /></a>
+                </div>
+                <div class="">
+                    <a href="#"><img src="dist/img/a.png" alt="pic" title="pic" class="gallery" /></a>
+                </div>
+                </div>
+                  
+                </div><!-- /.box-header -->
+             
+               
+               
+                </div>
+                </section>
+
+                 <section id="Amigos">
+                <div class="box box-primary">
+                <div class="box-header">
+                  <i class="ion ion-clipboard"></i>
+                  <h3 class="box-title">Amigos</h3>
+
+                   <div class="box-body">
+                   <div class="row">
+
+                <div class="col-xs-6">
+                    <a href="#.html"><a href="#"><img src="dist/img/avatar.png" name="img" class="gallery" id="img" /></a>
+                    
+                </div>
+                <div class="col-xs-6 .col-md-4">
+                  <a href="#.html"><font color="#0080FF" size="5">Gabriel</font></a><br><br>
+                  <div class="btn-group"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                          Amigos <span class="caret"></span>
+                                         </button><br><br><br><br>
+                  <p class="text-muted pull-right"><a href="#"> 8744 Me gusta </a>|<a href="#"> Capacitaciones Comunes</a></p>
+ 
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Marcar Favorito</a></li>
+                        <li><a href="#">Eliminar</a></li>
+                      </ul>
+                    </div>
+
+                </div>
+                </div>
+          
+
+                <div class="row">
+                <div class="col-xs-6 .col-md-4">
+                    <a href="#"><img src="dist/img/avatar04.png" name="img" class="gallery" id="img"/></a>
+                </div>
+                 <div class="col-xs-6 .col-md-4">
+                  <a href="#.html"><font color="#0080FF" size="5">Steve</font></a><br><br>
+                
+                <div class="btn-group"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                          Amigos <span class="caret"></span>
+                                         </button><br><br><br><br>
+                  <p class="text-muted pull-right"><a href="#"> 577 Me gusta </a>|<a href="#"> Capacitaciones Comunes</a></p>
+ 
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Marcar Favorito</a></li>
+                        <li><a href="#">Eliminar</a></li>
+                      </ul>
+                    </div></div>
+
+                  </div>
+
+
+                    <div class="row">
+                <div class="col-xs-6 .col-md-4">
+                  <a href="#.html"><a href="#"><img src="dist/img/avatar2.png" name="img" class="gallery" id="img"/></a>
+                </div>
+                 <div class="col-xs-6 .col-md-4">
+                  <a href="#.html"><font color="#0080FF" size="5">Angie</font></a><br><br>
+               
+                <div class="btn-group"><button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                          Amigos <span class="caret"></span>
+                                         </button><br><br><br><br>
+                  <p class="text-muted pull-right"><a href="#"> 789873 Me gusta </a>|<a href="#"> Capacitaciones Comunes</a></p>
+ 
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Marcar Favorito</a></li>
+                        <li><a href="#">Eliminar</a></li>
+                      </ul>
+                    </div>
+                     </div>
+                
+                </div>
+                </div>
+                  
+                </div><!-- /.box-header -->
+             
+               
+               
+                </div>
+                </section>
+
+
+              
+
+            </section><!-- /.Left col -->
+            <!-- right col (We are only adding the ID to make the widgets sortable)-->
+            <section class="col-lg-3 connectedSortable">
+
+              <!-- Map box -->
+              <div class="box box-solid bg-light-#0101DF-gradient">
+                <div class="box-header">
+                  <!-- tools box --><!-- /. tools -->
+                  <div>  
+                  <article>
+    <h3>TadeoSystems</h3>
+    <img style="float: left;" src="dist/img/avatar5.png" width="166" height="200px" max-width="100%"/></div>
+                 
+    <p><img src="dist/img/valoraciones.png" width="158" height="33" /></p>
+    
+    <p style="color: #000;">Nombre: TadeoSystems</p>
+    <p style="color: #000;">Trabajo: Desarrollo de sistemas</p>
+    <p style="color: #000;">Nivel educativo: educación Superior</p>
+    <p style="color: #000;">Pais: El salvador</p>
+    <p style="color: #000;">ciudad: San Salvador</p>
+    <p style="color: #000;">Fecha de nacimiento: 11/09/1991</p>
+     
+     <hr />
+    
+    
+   
+
+</article>
+               
+
+            
+
+              <!-- Calendar -->
+              <div class="box box-solid bg-green-gradient">
+                <div class="box-header">
+                  <i class="fa fa-calendar"></i>
+                  <h3 class="box-title">Capacitaciones</h3>
+                  <!-- tools box -->
+                  <div class="pull-right box-tools">
+                    
+                  </div><!-- /. tools -->
+                </div><!-- /.box-header -->
+                <div class="box-body no-padding">
+                  <!--The calendar -->
+                  <div id="calendar" style="width: 100%"></div>
+                </div><!-- /.box-body -->
+                <div class="box-footer text-black">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <!-- Progress bars -->
+                      <div class="clearfix">
+                        <span class="pull-left">Informatica</span>
+                        <small class="pull-right">90%</small>
+                      </div>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-aqua" style="width: 90%;"></div>
+                      </div>
+
+                      <div class="clearfix">
+                        <span class="pull-left">Arte y Diseño</span>
+                        <small class="pull-right">70%</small>
+                      </div>
+                      <div class="progress xs">
+                        <div class="progress-bar progress-bar-red" style="width: 70%;"></div>
+                      </div>
+                    </div><!-- /.col --><!-- /.col -->
+                  </div><!-- /.row -->
+                </div>
+              </div><!-- /.box -->
+
+            </section><!-- right col -->
+          </div><!-- /.row (main row) -->
+
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+      <footer class="main-footer">
+        <div class="pull-right hidden-xs">
+          <b>Version</b> 1.0
+        </div>
+        <strong>EmprendeSV 2015 <a href="#">TadeoSystems</a>.</strong> Todos los derechos reservados
+      </footer>
+    </div><!-- ./wrapper -->
+
+    <!-- jQuery 2.1.3 -->
+    <script src="plugins/jQuery/jQuery-2.1.3.min.js"></script>
+    <!-- jQuery UI 1.11.2 -->
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>    
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/knob/jquery.knob.js" type="text/javascript"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/app.min.js" type="text/javascript"></script>
+
+    
+  </body>
+</html>
